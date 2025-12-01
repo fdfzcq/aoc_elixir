@@ -2,8 +2,8 @@ defmodule AOC.Day6 do
   ## This is horrible code translated from prolog
   ## Might make it better in the future
 
-  def test(days), do: latern_fish(test_input, days)
-  def run(days), do: latern_fish(input, days)
+  def test(days), do: latern_fish(test_input(), days)
+  def run(days), do: latern_fish(input(), days)
 
   def latern_fish(list, days),
     do: Enum.reduce(list, {%{}, length(list)}, &latern_fish(&1, &2, days))
