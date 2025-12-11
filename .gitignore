@@ -23,3 +23,5 @@ erl_crash.dump
 aoc_elixir-*.tar
 
 *.txt
+
+lib/2025/day10_solver.py
